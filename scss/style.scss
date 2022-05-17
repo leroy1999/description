@@ -73,7 +73,11 @@ header{
 .underline{
 	border-bottom: $MainColor 0.5rem solid;
 }
-
+.heading{
+	font-size: 2rem;
+	padding: 2rem 0 1rem;
+	padding-left: 1rem;
+}
 
 body{
 	margin: 0 auto;
@@ -89,14 +93,13 @@ body{
 		}
 		#preface{
 			padding-top: 2rem;
-			h1{
-				font-size: 2rem;
-				padding: 2rem 0 1rem;
-				padding-left: 1rem;
-			}
 			.preface-text{
 				padding: 1rem;
 			}
+		}
+		#contents{
+			.heading{
+				font-size:1.7rem;
 		}
 		
 	}
