@@ -2,7 +2,9 @@ html {
   width: 100%;
   background-color: #E5E5E5;
   font-family: 'Zen Maru Gothic', sans-serif;
-  line-height: 2rem; }
+  line-height: 2rem;
+  color: #3D4A61;
+  box-sizing: border-box; }
 
 header {
   background-color: #02818B;
@@ -52,6 +54,14 @@ header {
 .underline {
   border-bottom: #02818B 0.5rem solid; }
 
+.heading {
+  font-size: 2rem;
+  padding: 2rem 0 1rem;
+  padding-left: 1rem; }
+
+.padding-top {
+  padding-top: 5rem; }
+
 body {
   margin: 0 auto; }
   body #index-page .top-img {
@@ -61,11 +71,19 @@ body {
       width: 100%;
       height: 100%;
       object-fit: cover; }
-  body #index-page #preface {
-    padding-top: 2rem; }
-    body #index-page #preface h1 {
-      font-size: 2rem;
-      padding: 2rem 0 1rem;
-      padding-left: 1rem; }
-    body #index-page #preface .preface-text {
-      padding: 1rem; }
+  body #index-page #preface .preface-text {
+    padding: 1rem; }
+  body #index-page #contents .contents-text {
+    padding-left: 1rem; }
+    body #index-page #contents .contents-text ul {
+      padding-left: 1.2rem; }
+      body #index-page #contents .contents-text ul li {
+        list-style: decimal; }
+    body #index-page #contents .contents-text a {
+      border-bottom: #3D4A61 1px solid; }
+    body #index-page #contents .contents-text .heading {
+      font-size: 1.5rem;
+      padding-left: 0;
+      padding-bottom: 0.5rem; }
+    body #index-page #contents .contents-text p {
+      display: inline; }
