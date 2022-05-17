@@ -11,6 +11,7 @@ html{
 	width: 100%;
 	background-color: $Color;
 	font-family: 'Zen Maru Gothic', sans-serif;
+	line-height: 2rem;
 }
 
 header{
@@ -86,11 +87,15 @@ body{
 				object-fit: cover;
 			}
 		}
-		.preface{
+		#preface{
+			padding-top: 2rem;
 			h1{
 				font-size: 2rem;
-				padding: 2rem 0 0.5rem;
-				padding-left: 0.5rem;
+				padding: 2rem 0 1rem;
+				padding-left: 1rem;
+			}
+			.preface-text{
+				padding: 1rem;
 			}
 		}
 		
